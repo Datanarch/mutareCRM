@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/home/datanarch/.cache/pypoetry/virtualenvs/mutare-crm-3T0ladi2-py3.12/bin/python",
+    "black-formatter.interpreter": [
+        "/home/datanarch/.cache/pypoetry/virtualenvs/mutare-crm-3T0ladi2-py3.12/bin/python"
+    ]
+}

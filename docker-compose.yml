@@ -1,0 +1,25 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://mutare:muTaRe@postgres:5432/mutare_db
+      - SECRET_KEY=${SECRET_KEY}
+      - DEBUG=True
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      - POSTGRES_USER=mutare
+      - POSTGRES_PASSWORD=muTaRe
+      - POSTGRES_DB=mutare_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
