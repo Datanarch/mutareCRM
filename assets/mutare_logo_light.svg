@@ -1,0 +1,29 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <title>Mutāre — Logo Light</title>
+  <desc>Logo Modular M, versión clara</desc>
+
+  <!-- Fondo blanco -->
+  <rect width="800" height="400" fill="#FFFFFF"/>
+
+  <!-- Pilar izquierdo -->
+  <rect x="298" y="68" width="30" height="92" rx="6" fill="#1D9E75"/>
+  <!-- Pilar derecho -->
+  <rect x="412" y="68" width="30" height="92" rx="6" fill="#1D9E75"/>
+  <!-- Diagonal izquierda -->
+  <rect x="320" y="60" width="26" height="34" rx="6" fill="#5DCAA5" transform="rotate(32 333 77)"/>
+  <!-- Diagonal derecha -->
+  <rect x="388" y="60" width="26" height="34" rx="6" fill="#5DCAA5" transform="rotate(-32 401 77)"/>
+  <!-- Vértice central -->
+  <rect x="356" y="122" width="28" height="28" rx="6" fill="#0F6E56"/>
+  <!-- Macron -->
+  <rect x="290" y="52" width="160" height="7" rx="3.5" fill="#9FE1CB"/>
+
+  <!-- Wordmark -->
+  <text x="400" y="248" text-anchor="middle" fill="#1A1A1A" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="400" letter-spacing="8">Mut&#257;re</text>
+
+  <!-- Separador -->
+  <line x1="280" y1="270" x2="520" y2="270" stroke="#D3D1C7" stroke-width="0.8"/>
+
+  <!-- Slogan -->
+  <text x="400" y="302" text-anchor="middle" fill="#1D9E75" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="5">Built to change with you.</text>
+</svg>

@@ -1,5 +1,5 @@
 # CRM Modular
-
+![Mutare CRM](./assets/mutare_logo_final.svg)
 API REST modular construida con FastAPI + SQLAlchemy + Poetry.
 
 ## Filosofía
@@ -21,7 +21,7 @@ cp .env.example .env
 poetry run uvicorn app.main:app --reload
 ```
 
-API:           http://localhost:8000  
+API:           http://localhost:8000
 Documentación: http://localhost:8000/docs
 
 ## Cambiar base de datos

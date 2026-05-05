@@ -39,6 +39,8 @@ app = FastAPI(
     title=settings.app_name,
     version=settings.app_version,
     description="""
+![Mutare CRM](./assets/mutare_logo_light.svg)
+
 API REST del CRM Modular.
 
 **Estado actual:** Ciclo 1 — Contacts CRUD
