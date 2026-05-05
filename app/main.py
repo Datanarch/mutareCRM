@@ -39,7 +39,7 @@ app = FastAPI(
     title=settings.app_name,
     version=settings.app_version,
     description="""
-![Mutare CRM](./assets/mutare_logo_light.svg)
+![Mutare CRM](https://github.com/Datanarch/mutareCRM/blob/main/assets/mutare_logo_light.svg)
 
 API REST del CRM Modular.
 
