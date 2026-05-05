@@ -4,18 +4,18 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql://mutare:muTaRe@postgres:5432/mutare_db
+      - DATABASE_URL=${DATABASE_URL}
       - SECRET_KEY=${SECRET_KEY}
-      - DEBUG=True
+      - DEBUG=${DEBUG}
     depends_on:
       - postgres
 
   postgres:
     image: postgres:16-alpine
     environment:
-      - POSTGRES_USER=mutare
-      - POSTGRES_PASSWORD=muTaRe
-      - POSTGRES_DB=mutare_db
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
     ports:
       - "5432:5432"
     volumes:

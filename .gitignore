@@ -1,2 +1,18 @@
+# Variables de entorno
 .env
-.env
+.env.*
+
+# Base de datos local
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Poetry
+.venv/
