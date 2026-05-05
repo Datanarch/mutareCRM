@@ -19,6 +19,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.modules.auth.model import Tenant, User  # noqa: F401
 from app.modules.auth.router import router as auth_router, get_current_user
+from fastapi.staticfiles import StaticFiles
 
 from app.core.config import settings
 from app.core.database import engine, Base
@@ -38,6 +39,8 @@ if ":memory:" not in os.getenv("DATABASE_URL", "sqlite:///./crm_dev.db"):
 app = FastAPI(
     title=settings.app_name,
     version=settings.app_version,
+    docs_url="/docs",
+    favicon_url = "/static/mutare_favicon.svg"
     description="""
 ![Mutare CRM](https://github.com/Datanarch/mutareCRM/blob/main/assets/mutare_logo_light.svg)
 
